@@ -627,13 +627,14 @@ html:not(.touchevents) .gallery-caption {
   text-align: center;
   box-sizing: border-box;
   pointer-events: none;
+  display:none;
 }
 @media (min-width: 640px) {
   html:not(.touchevents) .gallery-caption {
     font-size: 14px;
   }
 }
-html:not(.touchevents) .gallery-caption:before, html:not(.touchevents) .gallery-caption:after {
+/* html:not(.touchevents) .gallery-caption:before, html:not(.touchevents) .gallery-caption:after {
   content: "";
   position: absolute;
   top: 0;
@@ -645,7 +646,7 @@ html:not(.touchevents) .gallery-caption:before, html:not(.touchevents) .gallery-
   height: 100%;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  z-index: -1;
+  z-index: -1; */
 }
 html:not(.touchevents) .gallery-caption:before {
   top: auto;
